@@ -15,7 +15,7 @@ The following instructions are for making configuration changes to the `config.j
 2.  Add these credentials to the `twitter: { credentials }` object's relevant properties.
 3.  Set the `led_pin` property to the GPIO pin number to which the LED is attached to your Raspberry Pi.
 4.  Set the `wordsPerMinute` property to the rate at which you wish messages to be encoded.
-5.  Per Twitter's [Streaming Filter API](https://developer.twitter.com/en/docs/tweets/filter-realtime/guides/basic-stream-parameters.html), the `twitter: follow` and `twitter: track` properties are areas of strings that allow one to filter the tweet stream. Array elements are processed into a comma separated values.
+5.  Per Twitter's [Streaming Filter API](https://developer.twitter.com/en/docs/tweets/filter-realtime/guides/basic-stream-parameters.html), the `twitter: follow` and `twitter: track` properties are areas of strings that allow one to filter the tweet stream. Array elements are processed into comma separated values.
 
 ## Usage
 
