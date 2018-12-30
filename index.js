@@ -64,7 +64,7 @@ function playMessage(message) {
 
   let cumulativeTime = 0;
 
-  timings.forEach(async (timing, i, arr) => {
+  timings.forEach((timing, i, arr) => {
     const duration = Math.abs(timing)
     const t0 = cumulativeTime;
     const t1 = t0 + duration;
