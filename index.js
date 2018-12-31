@@ -16,7 +16,6 @@ setInterval(() => {
   if (messages.length > 0 && !isPlaying()) {
     let message = messages.shift()
     message = message.replace(/[^a-zA-Z0-9]/g, "");
-    console.log(message)
     playMessage(message)
   }
 }, 10)
