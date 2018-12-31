@@ -2,6 +2,8 @@
 
 A morse code twitter client for the Raspberry Pi.
 
+![](resources/images/aldis.gif)
+
 ## Installation
 
 1.  Clone the repository
